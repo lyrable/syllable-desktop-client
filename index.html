@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background-glow"></div>
+
+<main class="player">
+
+    <section class="cover-section">
+        <img id="cover" src="" alt="album cover">
+    </section>
+
+    <section class="info-section">
+        <h1 id="song-name">Loading...</h1>
+        <h2 id="artist-name"></h2>
+    </section>
+
+    <div class="custom-select">
+        <button class="custom-select-button" id="custom-select-button">
+            JUICY — INSTASAMKA
+        </button>
+
+        <div class="custom-select-list" id="custom-select-list">
+            <div class="custom-select-item" data-value="JUICY">JUICY — INSTASAMKA</div>
+            <div class="custom-select-item" data-value="HateYourself">Hate Yourself — TV Girl</div>
+            <div class="custom-select-item" data-value="лишьоднажды">Лишь однажды — Валентин Стрыкало</div>
+            <div class="custom-select-item" data-value="намэтонравится">нам это нравится — CUPSIZE</div>
+            <div class="custom-select-item" data-value="Падатьвгрязь">Падать в грязь — Монеточка</div>
+        </div>
+    </div>
+
+    <section class="controls">
+        <button id="start-btn">Start</button>
+        <button id="reset-btn">Reset</button>
+    </section>
+
+    <audio id="audio"></audio>
+
+    <section class="palette-section" id="palette"></section>
+
+    <section class="progress-section">
+        <div class="progress-bar">
+            <div id="progress-fill"></div>
+        </div>
+    </section>
+
+    <section class="lyrics-section">
+        <div id="lyrics"></div>
+    </section>
+
+</main>
+
+<script src="player.js"></script>
+
+</body>
+</html>
