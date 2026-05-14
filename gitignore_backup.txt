@@ -1,0 +1,9 @@
+.venv/
+
+.idea/
+
+audio/
+
+data/
+
+__pycache__/
